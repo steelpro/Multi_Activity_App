@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zachb.multi_activity_app.MainActivity">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter first number"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/numOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="28sp" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter second number"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/numTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="number"
+                android:textSize="28sp" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add them!"
+                android:textSize="28sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
